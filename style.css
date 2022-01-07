@@ -177,3 +177,16 @@ hr{
     color: rgb(236, 26, 131);
     font-size: 12px;
 }
+.facilities{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.left{
+    display: grid;
+    grid-template-rows: repeat(5,35px);
+}
+.right{
+    display: grid;
+    grid-template-rows: repeat(5,35px);
+}
