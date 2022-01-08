@@ -190,3 +190,52 @@ hr{
     display: grid;
     grid-template-rows: repeat(5,35px);
 }
+.inlinerating{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+#logo{
+    color: rgb(236, 26, 131);
+    font-size: 35px;
+    font-weight: bold;
+    height: 35px;
+    width:35px;
+    margin-top: 15px;
+}
+#logo+{
+    color: rgb(236, 26, 131);
+
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.airbnb{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    color: rgb(236, 26, 131);
+
+}
+.search{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.search input[type="text"]{
+    width: 250px;
+    height: 35PX;
+    border-radius: 35PX;
+    
+}
+button{
+    margin-top: 2.5px;
+    height: 35px;
+    width: 35px;
+    border-radius: 35px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(236, 26, 106);;
+}
